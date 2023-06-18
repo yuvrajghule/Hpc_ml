@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+#Load dataset
+dataset=pd.read_csv("F:\hw.csv")
 print(dataset)
 x=dataset.iloc[:,:-1].values
 X=dataset.iloc[:,:-1].values
